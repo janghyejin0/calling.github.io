@@ -31,7 +31,7 @@ function startConverting ()
                     }
                 }
                 //insert into HTML
-                r.innerHTML=finalTranscripts+'<div style="color:#999">'+interimTranscripts+'</div>';
+                r.innerHTML=finalTranscripts+'<div style="color:#ffc100; Filter:glow(color=green, strength=20);"><font size = 13>'+interimTranscripts+'</div>';
             };
             speechRecognizer.onerror = function(event){
             };
