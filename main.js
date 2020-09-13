@@ -31,9 +31,7 @@ function startConverting ()
                     }
                 }
                 //insert into HTML
-                r.innerHTML=finalTranscripts+'<div style="color:#ffc100; Filter:glow(color=green, strength=80); top:200px;"><font size = 7>'+interimTranscripts+'<img src="https://source.unsplash.com/random/?cat'+200+'x'+height+'">'+'</div>';
-            };
-            speechRecognizer.onerror = function(event){</div>+'<img src="https://source.unsplash.com/random/?cat'+200+'x'+height+'">'+';
+                r.innerHTML=finalTranscripts+'<div style="color:#ffc100; Filter:glow(color=green, strength=80); top:200px;"><font size = 7>'+interimTranscripts+'</div>';
             };
             speechRecognizer.onerror = function(event){
             };
