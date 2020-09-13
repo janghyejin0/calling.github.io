@@ -1,3 +1,4 @@
+
 var r=document.getElementById('result');
 
 function startConverting ()
@@ -31,7 +32,7 @@ function startConverting ()
                     }
                 }
                 //insert into HTML
-                r.innerHTML=finalTranscripts+'<div style="color:#ffc100; Filter:glow(color=green, strength=80);"><font size = 8>'+interimTranscripts+'<img src="https://source.unsplash.com/random/?cat,png'+200+'x'+300+'">'+'</div>';
+                r.innerHTML=finalTranscripts+'<div style="color:#ffc100; Filter:glow(color=green, strength=80);"><font size = 8>'+interimTranscripts+'</div>';
             };
             speechRecognizer.onerror = function(event){
             };
