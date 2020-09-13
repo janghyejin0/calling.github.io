@@ -1,6 +1,3 @@
-function randomImg(200,250){
-  document
-}
 var r=document.getElementById('result');
 
 function startConverting ()
@@ -34,7 +31,7 @@ function startConverting ()
                     }
                 }
                 //insert into HTML
-                r.innerHTML=finalTranscripts+'<div style="color:#ffc100; Filter:glow(color=green, strength=80); top:200px;"><font size = 7>'+interimTranscripts+'</div>'+'<img src="https://source.unsplash.com/random/?cat'+200px+250px+'";
+                r.innerHTML=finalTranscripts+'<div style="color:#ffc100; Filter:glow(color=green, strength=80); top:200px;"><font size = 7>'+interimTranscripts+'</div>+'<img src="https://source.unsplash.com/random/?cat'+200+'x'+height+'">'+';
             };
             speechRecognizer.onerror = function(event){
             };
