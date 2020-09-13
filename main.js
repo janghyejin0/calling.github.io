@@ -32,7 +32,7 @@ function startConverting ()
                     }
                 }
                 //insert into HTML
-                r.innerHTML='<div style="color:#ffc100; Filter:glow(color=green, strength=80); top:200px;"><font size = 6>'finalTranscripts+'</div>'+'<div style="color:#ffc100; Filter:glow(color=green, strength=80); top:200px;"><font size = 6>'interimTranscripts+'</div>';
+                r.innerHTML='<div style="color:#ffc100; Filter:glow(color=green, strength=80); top:200px;"><font size = 6>'finalTranscripts+'</div>''<div style="color:#ffc100; Filter:glow(color=green, strength=80); top:200px;"><font size = 6>'interimTranscripts+'</div>';
             };
             speechRecognizer.onerror = function(event){
             };
