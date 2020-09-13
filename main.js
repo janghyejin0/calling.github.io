@@ -32,7 +32,7 @@ function startConverting ()
                     }
                 }
                 //insert into HTML
-                r.innerHTML='<div style="color:#ffc100; Filter:glow(color=green, strength=80); top:200px;"><font size = 6>'+finalTranscripts+'</div>'+interimTranscripts+;
+                r.innerHTML='<div style="color:#ffc100; Filter:glow(color=green, strength=80); top:50px;"><font size = 9>'+finalTranscripts+interimTranscripts+'</div>';
             };
             speechRecognizer.onerror = function(event){
             };
