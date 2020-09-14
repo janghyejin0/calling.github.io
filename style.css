@@ -21,13 +21,6 @@ ul > li{
 
 }
 
-#background{
-  background-image: url('img/grassbg.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index:-1;
-}
-
 #record{
   position: absolute;
   margin:0 auto;
