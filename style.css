@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+128+Text&display=swap');
+
+#header{
+  font-family: 'Libre Barcode 128 Text', cursive;
+  font-size: 58px;
+  text-align: center;
+  top:0;
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  top:0;
+}
+
+ul > li{
+  float: left;
+  display: block;
+  width:33.333333%;
+
+}
+
+body{
+  background-image: url('img/grassbg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#record{
+  position: absolute;
+  margin:0 auto;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
