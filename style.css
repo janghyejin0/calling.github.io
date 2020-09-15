@@ -21,7 +21,7 @@ ul > li{
 
 }
 
-#background{
+body{
   background-image: url('img/grassbg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
